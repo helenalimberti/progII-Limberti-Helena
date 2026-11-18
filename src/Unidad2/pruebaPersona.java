@@ -1,3 +1,5 @@
+package Unidad2;
+
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -35,7 +37,7 @@ public class pruebaPersona {
     }
 }
 
-// Clase Persona (no pública para estar en el mismo archivo)
+// Clase Unidad2.Persona (no pública para estar en el mismo archivo)
 class Persona {
     // Atributos privados (encapsulamiento)
     private String nombre;
