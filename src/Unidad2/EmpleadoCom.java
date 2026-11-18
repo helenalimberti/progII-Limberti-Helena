@@ -1,3 +1,5 @@
+package Unidad2;
+
 public class EmpleadoCom extends Empleado{
 private int ventas;
 public EmpleadoCom(String nombre, int legajo, int ventas){

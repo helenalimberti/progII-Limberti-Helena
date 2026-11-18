@@ -1,3 +1,5 @@
+package Unidad2;
+
 public class Empleado {
     protected String nombre;
     protected int legajo;

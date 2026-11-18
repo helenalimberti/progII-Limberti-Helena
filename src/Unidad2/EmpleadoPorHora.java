@@ -1,3 +1,5 @@
+package Unidad2;
+
 public class EmpleadoPorHora extends Empleado {
     private double HsTrabajadas;
     private double ValorHora;
