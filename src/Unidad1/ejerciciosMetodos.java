@@ -1,3 +1,5 @@
+package Unidad1;
+
 public class ejerciciosMetodos {
     //procedimiento
     public static void tablaDeMultiplicar(int n) {
