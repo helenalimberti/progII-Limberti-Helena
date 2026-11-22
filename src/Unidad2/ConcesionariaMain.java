@@ -12,7 +12,7 @@ import java.util.ArrayList;
      public void agregarVehiculo(Vehiculo a){
     stock.add(a);
   }
-  public Vehiculo buscarMarca(String nombreMarca){
+     public Vehiculo buscarMarca(String nombreMarca){
 
       for (int i = 0 ; i < stock.size(); i++){
         if (nombreMarca.equalsIgnoreCase(stock.get(i).getMarca())){
@@ -20,7 +20,7 @@ import java.util.ArrayList;
         }
      }
       return null;
-  }
+     }
   public double totalStock(){
       double total = 0;
       for (int i= 0; i < stock.size() ; i++) {

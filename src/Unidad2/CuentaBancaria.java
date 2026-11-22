@@ -71,32 +71,43 @@ public class CuentaBancaria {
         System.out.println("saldo disponible: "+ getSaldo());
     }
 }
- class MainEmpleado {
+ class MainCuentaBancaria {
      public static void main(String[] args) {
 
          CuentaBancaria a = new CuentaBancaria("Juan", 123, 222);
-
+         System.out.println("");
+        a.mostrar();
          try {//probar try-catch
              a.setTitular("");
          } catch (Exception e) {
              System.out.println(e.getMessage());
          }
+         System.out.println("");
 
          try {//probar try-catch
              a.setSaldo(-12);
          } catch (Exception e) {
              System.out.println(e.getMessage());
          }
+         System.out.println("");
+
          a.mostrar();
+         System.out.println("");
+
          a.depositar(200);
+         System.out.println("");
+
          a.extraer(100);
-        System.out.println("\n");
+         System.out.println("");
+
+         System.out.println("");
         try {
             a.depositar(-100);
         }   catch (Exception e){
             System.out.println(e.getMessage());
         }
 
+         System.out.println("");
          try {
              a.extraer(-100);
          }   catch (Exception e){
