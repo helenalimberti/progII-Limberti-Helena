@@ -1,32 +1,32 @@
 package Unidad2;
 
 import java.util.ArrayList;
- class Concesionaria {
- String nombre ;
- ArrayList<Vehiculo> stock = new ArrayList<>();
-
-     public Concesionaria(String nombre) {
+    class Concesionaria {
+      String nombre ;
+      ArrayList<Vehiculo> stock = new ArrayList<>();
+      public Concesionaria(String nombre) {
          this.nombre = nombre;
      }
 
      public void agregarVehiculo(Vehiculo a){
-    stock.add(a);
-  }
-     public Vehiculo buscarMarca(String nombreMarca){
+        stock.add(a);
+      }
 
-      for (int i = 0 ; i < stock.size(); i++){
-        if (nombreMarca.equalsIgnoreCase(stock.get(i).getMarca())){
+     public Vehiculo buscarMarca(String nombreMarca){
+          for (int i = 0 ; i < stock.size(); i++){
+            if (nombreMarca.equalsIgnoreCase(stock.get(i).getMarca())){
             return stock.get(i);
-        }
-     }
+            }
+          }
       return null;
      }
-  public double totalStock(){
-      double total = 0;
+
+     public double totalStock(){
+         double total = 0;
       for (int i= 0; i < stock.size() ; i++) {
           total += stock.get(i).getPrecio();
       }
-  return total ;}
+      return total ;}
 }
 public class ConcesionariaMain {
     public static void main(String[] args) {
