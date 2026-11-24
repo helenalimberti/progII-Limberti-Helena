@@ -15,7 +15,7 @@ public EmpleadoCom(String nombre, int legajo, int ventas){
 
    public static void main(String[] args) {
         Empleado[] a = new Empleado[3];
-        a[0] = new EmpleadoPorHora ("maria", 324, 3.4, 200 );
+        a[0] = new EmpleadoPorHora ("helena", 321, 6.5, 500 );
         a[1] = new EmpleadoCom ("juana", 222, 12);
         a[2] = new Empleado ("carlos", 111);
 
