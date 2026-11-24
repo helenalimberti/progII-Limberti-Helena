@@ -32,7 +32,7 @@ public class ConcesionariaMain {
     public static void main(String[] args) {
         Concesionaria a1 = new Concesionaria("Kyoto");
 
-        Vehiculo a = new Vehiculo("audi", "a3", 20000);
+        Vehiculo a = new Vehiculo("fiat", "palio", 200020);
         Vehiculo b = new Vehiculo("ford", "ka", 30000);
         Vehiculo c = new Vehiculo("nissan", "versa", 6000);
         Vehiculo d = new Vehiculo("toyota", "corolla", 10000);
